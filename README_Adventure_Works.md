@@ -1,145 +1,96 @@
 # 📊 Adventure Works Sales Analysis Dashboard  
-**Excel — Data Cleaning | Analysis | KPI Reporting | Visualization**
+*Excel — Data Cleaning | Analysis | KPI Reporting | Visualization*
 
-This project showcases a complete **end-to-end Excel data analysis**, transforming raw AdventureWorks data into an interactive and insightful **business performance dashboard**.
-
-## 🚀 Project Overview
-The goal of this project was to analyze **sales, profit, COGS, customer behavior, product performance, and regional trends** using Excel.  
-The dashboard provides executives with an easy way to monitor performance, track KPIs, and identify growth opportunities.
-
-This project demonstrates strong skills in:
-- Data cleaning & preparation  
-- Data modeling inside Excel  
-- PivotTables & PivotCharts  
-- KPI creation  
-- Advanced dashboard design  
-- Business analytics & storytelling
+This project delivers a complete end-to-end Excel data analysis on the **Adventure Works** dataset.  
+It includes data cleaning, KPI generation, time analysis, customer profiling, and interactive dashboard design.
 
 ---
 
-## 📂 Dataset
-The dataset includes:
-- Sales transactions  
-- Product details  
+## 🚀 Project Overview
+The purpose of this project is to analyze company performance across:
+- Sales  
+- Profit  
+- COGS  
 - Customer demographics  
-- Country information  
-- Dates & time intelligence fields  
+- Product categories  
+- Geographical markets  
+- Time trends (Year, Quarter, Month, Weekday)
 
-Raw data was cleaned and transformed before building the dashboard.
+The dashboard provides a **comprehensive view** of business performance to support data-driven decisions.
+
+---
+
+## 🖥️ **Dashboard Preview**
+### ⭐ Main Dashboard
+![Dashboard Preview](./images/dashboard_main.png)
+
+### ⭐ Detailed Dashboard
+![Dashboard Preview 2](./images/dashboard_detail.png)
+
+> Upload your dashboard screenshots into a folder named **images** in your GitHub repository  
+> and rename them to `dashboard_main.png` and `dashboard_detail.png`.
 
 ---
 
 ## 🛠️ Tools & Techniques
+
 ### **Tools**
-- Microsoft Excel (Primary)
-- Power Query (for cleaning & transformation)
+- Microsoft Excel  
+- Power Query  
+- PivotTables  
+- PivotCharts  
 
 ### **Techniques**
-- PivotTables & PivotCharts  
-- Slicers & dynamic filtering  
-- Calculated fields  
-- KPI design (Profit %, Total Sales, COGS, Transactions…)  
-- Time intelligence (YoY, MoM, Quarter trends)  
-- Grouping by year, month, weekday  
-- Data segmentation & customer profiling  
+- Data Cleaning & Standardization  
+- Data Modeling (Relationships & Lookups)  
+- KPI Creation (Sales, Profit, Margin, COGS, Transactions)  
+- Year-over-Year & Month-over-Month Analysis  
+- Slicers & Interactive Filters  
+- Custom Dashboard Design  
+- Time Intelligence  
+- Segmentation & Customer Profiling  
 
 ---
 
-## 📈 Dashboard Features
+## 📈 Key Insights
 
-### 🔹 **1. Sales KPIs**
-- **Total Sales:** $5.69M  
-- **Total Profit:** $2.48M  
-- **Total COGS:** $3.22M  
-- **Profit Margin:** 43.5%  
-- **Transactions:** 3,090+
+### 🔹 **Sales & Profit KPIs**
+- Total Sales: **$5.69M**  
+- Total Profit: **$2.48M**  
+- Profit Margin: **43.5%**  
+- Total COGS: **$3.22M**  
+- Transactions: **3,090+**
 
-### 🔹 **2. Time Analysis**
-- Monthly trend line for total profit  
-- Year slicer (2005–2008)  
-- Month slicer  
-- Quarterly profit breakdown  
-- YoY comparisons  
+### 🔹 **Time Analysis**
+- **2007** delivered the highest revenue and profit  
+- **Quarter 4** outperformed all other quarters  
+- Profit peaked in **December ($521.4K)**  
 
-### 🔹 **3. Product Insights**
-- Top 5 most profitable products  
-- Profit share: Top 5 vs Others  
-- Profit by product color  
-- Total available, sold, and unsold products  
+### 🔹 **Customer Insights**
+- Customers aged **50+** contributed **65.6%** of total profit  
+- Total customers: **1.57M+**  
+- Male customers generated **56.1%** of overall profit  
 
-### 🔹 **4. Customer Insights**
-- Top 5 most profitable customers  
-- Customer count (1.57M+)  
-- Average customer age  
-- Gender-based profit contribution  
-- Contribution of age group 50+ (65.6% of total profit)
+### 🔹 **Product Insights**
+- Black & Silver products contributed the most profit  
+- Top-5 products accounted for **39.1%** of all profit  
+- Many product categories had low or zero sales  
 
-### 🔹 **5. Geographic Insights**
-- Regional profit distribution across countries  
-- Australia & United States contributed **60.1%** of total profit  
-- Interactive map visualization  
-
-### 🔹 **6. Weekday & Weekend Performance**
-- Weekday contribution to profit (47.1%)  
-- Weekend vs Workday breakdown  
-- Daily revenue/ profit comparison  
+### 🔹 **Geographical Insights**
+- **Australia & United States** contributed **60.1%** of total profit  
+- Canada, UK, and Germany follow as secondary markets  
 
 ---
 
-## 🧼 Data Cleaning Steps
-Using **Power Query** and Excel:
-- Removed duplicates  
-- Standardized product names  
-- Fixed inconsistent categories  
-- Converted dates to proper formats  
-- Validated numeric fields  
-- Created structured tables  
-- Built relationships using lookup tables  
+## 🧼 Data Cleaning Process
+Performed using **Excel & Power Query**:
+- Removed duplicate rows  
+- Fixed inconsistent product names  
+- Corrected data types  
+- Standardized dates  
+- Repaired category labels  
+- Created structured tables for clean modeling  
 
 ---
 
-## 💡 Key Insights
-- **2007** was the strongest performance year (92.7% of highlighted profit).  
-- **Quarter 4** generated the highest profit: **$1.20M**.  
-- **Black** and **Silver** products dominate profit contribution.  
-- **Customers aged 50+** accounted for **65.6%** of total profit.  
-- **Australia & U.S.** were the most profitable markets.  
-- Weekends contributed **69.6%** of total profit.
-
----
-
-## 📁 Screenshots
-
-### **Main Dashboard**
-![Dashboard Screenshot](./images/dashboard_1.png)
-
-### **Detailed Dashboard**
-![Dashboard Screenshot 2](./images/dashboard_2.png)
-
-*(Upload your screenshots in a folder named `/images` and update the paths)*
-
----
-
-## 📘 Project Files
-- `AdventureWorks_Dashboard.xlsx` → Main dashboard  
-- `Cleaned_Data.xlsx` → Processed dataset  
-- `Raw_Data` → Original dataset (optional)  
-
----
-
-## 🎯 What This Project Demonstrates
-This project highlights capabilities in:
-- Business analytics  
-- Data storytelling  
-- Dashboard design  
-- Excel automation  
-- KPI tracking and interpretation  
-- Turning raw data → business insights  
-
----
-
-## 📩 Contact
-**Omar Khaled**  
-Data Analyst  
-📧 mandomemo613@gmail.com  
-🔗 www.linkedin.com/in/omar-khaled-b37465167
+## 📁 Repository Structure
