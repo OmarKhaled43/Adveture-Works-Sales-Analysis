@@ -88,7 +88,3 @@ Performed using **Excel & Power Query**:
 - Cleaned date formats  
 - Built structured tables  
 - Created lookup tables for modeling  
-
----
-
-## 📁 Repository Structure
