@@ -1,95 +1,93 @@
 # 📊 Adventure Works Sales Analysis Dashboard  
 *Excel — Data Cleaning | Analysis | KPI Reporting | Visualization*
 
-This project delivers a complete end-to-end Excel data analysis on the **Adventure Works** dataset.  
-It includes data cleaning, KPI generation, time analysis, customer profiling, and interactive dashboard design.
+This project delivers a full end-to-end Excel analysis on the **Adventure Works** dataset.  
+It includes data cleaning, KPI creation, time analysis, customer segmentation, and interactive dashboards.
+
+---
+
+## 🖥️ Dashboard Preview
+
+### ⭐ Main Dashboard Preview
+![Dashboard Screenshot 1](./Screenshot%202026-02-28%20141117.png)
+
+### ⭐ Advanced Detailed Dashboard Preview
+![Dashboard Screenshot 2](./Screenshot%202026-02-28%20141151.png)
 
 ---
 
 ## 🚀 Project Overview
-The purpose of this project is to analyze company performance across:
+The objective of this project is to analyze company performance across multiple business areas:
+
 - Sales  
 - Profit  
 - COGS  
 - Customer demographics  
 - Product categories  
-- Geographical markets  
+- Geographical regions  
 - Time trends (Year, Quarter, Month, Weekday)
 
-The dashboard provides a **comprehensive view** of business performance to support data-driven decisions.
-
----
-
-## 🖥️ **Dashboard Preview**
-### ⭐ Main Dashboard
-![Dashboard Preview](./images/dashboard_main.png)
-
-### ⭐ Detailed Dashboard
-![Dashboard Preview 2](./images/dashboard_detail.png)
-
-> Upload your dashboard screenshots into a folder named **images** in your GitHub repository  
-> and rename them to `dashboard_main.png` and `dashboard_detail.png`.
+The final dashboard provides executives with **quick insights** into performance drivers and growth opportunities.
 
 ---
 
 ## 🛠️ Tools & Techniques
 
-### **Tools**
+### **Tools Used**
 - Microsoft Excel  
 - Power Query  
 - PivotTables  
 - PivotCharts  
 
 ### **Techniques**
-- Data Cleaning & Standardization  
-- Data Modeling (Relationships & Lookups)  
-- KPI Creation (Sales, Profit, Margin, COGS, Transactions)  
-- Year-over-Year & Month-over-Month Analysis  
-- Slicers & Interactive Filters  
-- Custom Dashboard Design  
-- Time Intelligence  
+- Data Cleaning & Transformation  
+- Lookup Table Modeling  
+- KPI Building (Profit, Margins, COGS, Transactions)  
+- Time Intelligence (YoY, MoM, Quarterly Trends)  
+- Slicers & Filters  
+- Dashboard UI/UX Design  
 - Segmentation & Customer Profiling  
 
 ---
 
 ## 📈 Key Insights
 
-### 🔹 **Sales & Profit KPIs**
+### 🔹 Sales & Profit Highlights
 - Total Sales: **$5.69M**  
 - Total Profit: **$2.48M**  
 - Profit Margin: **43.5%**  
-- Total COGS: **$3.22M**  
+- COGS: **$3.22M**  
 - Transactions: **3,090+**
 
-### 🔹 **Time Analysis**
-- **2007** delivered the highest revenue and profit  
-- **Quarter 4** outperformed all other quarters  
-- Profit peaked in **December ($521.4K)**  
+### 🔹 Time Performance
+- **2007** delivered the highest overall profit  
+- **Quarter 4** recorded the strongest financial performance  
+- December reached **$521.4K** profit  
 
-### 🔹 **Customer Insights**
+### 🔹 Customer Insights
 - Customers aged **50+** contributed **65.6%** of total profit  
-- Total customers: **1.57M+**  
-- Male customers generated **56.1%** of overall profit  
+- Male customers generated **56.1%** of total profit  
+- 1.57M+ active customers  
 
-### 🔹 **Product Insights**
-- Black & Silver products contributed the most profit  
-- Top-5 products accounted for **39.1%** of all profit  
-- Many product categories had low or zero sales  
+### 🔹 Product Insights
+- Black and Silver products dominate profit contribution  
+- Top 5 products account for **39.1%** of all profit  
+- Several SKUs remain unsold  
 
-### 🔹 **Geographical Insights**
-- **Australia & United States** contributed **60.1%** of total profit  
-- Canada, UK, and Germany follow as secondary markets  
+### 🔹 Geographic Insights
+- **Australia & United States** contributed **60.1%** of the total profit  
+- Key secondary markets include Germany, UK, Canada  
 
 ---
 
-## 🧼 Data Cleaning Process
+## 🧼 Data Cleaning Steps
 Performed using **Excel & Power Query**:
-- Removed duplicate rows  
-- Fixed inconsistent product names  
-- Corrected data types  
-- Standardized dates  
-- Repaired category labels  
-- Created structured tables for clean modeling  
+- Removed duplicates  
+- Standardized product names and categories  
+- Repaired missing values  
+- Cleaned date formats  
+- Built structured tables  
+- Created lookup tables for modeling  
 
 ---
 
